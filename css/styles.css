@@ -1,0 +1,57 @@
+img {
+  width:100%;
+  hight:auto;
+}
+h1 {
+  color:lightblue;
+}
+h2 {
+  color:white;
+  background-color:lightblue;
+  margin:10px;
+  padding:10px;
+  font-size:14px;
+}
+h3 {
+  color:lightblue;
+  margin:10px;
+  font-size:14px;
+  text-emphasis:none;
+}
+p {
+  color:white;
+  background-color:lightblue;
+  margin:10px;
+  padding:10px;
+    width:150px;
+
+}
+nav {
+  color:grey;
+  background-color:lightblue;
+  margin:15px;
+  padding:10px;
+}
+ul {
+  list-style:none;
+}
+li {
+  display:inline-block;
+  padding:5px;
+  background-color:white;
+  margin:15px;
+}
+section.container  {
+  display:flex;
+  flex-flow: row wrap;
+}
+section.container a {
+  flex-basis: 300px;
+  margin:20px;
+  width:300px;
+}
+footer {
+  color:lightblue;
+}
+a:link, a:hover, a:visited {
+  color:lightblue;
