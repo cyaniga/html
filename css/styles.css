@@ -1,57 +1,93 @@
+*,
+*::before *::after {
+  box-sizing: inherit;
+}
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5rem;
+  /* rem is unit for sizing */
+}
 img {
-  width:100%;
-  hight:auto;
+  width: 100%;
+  hight: auto;
+  display: block;
 }
 h1 {
-  color:lightblue;
+  color: lightblue;
+  font-size: 3rem;
+  line-height: 3rem;
 }
 h2 {
-  color:white;
-  background-color:lightblue;
-  margin:10px;
-  padding:10px;
-  font-size:14px;
-}
-h3 {
-  color:lightblue;
-  margin:10px;
-  font-size:14px;
-  text-emphasis:none;
+  color: white;
+  background-color: lightblue;
+  margin: 10px;
+  padding: 10px;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
 }
 p {
-  color:white;
-  background-color:lightblue;
-  margin:10px;
-  padding:10px;
-    width:150px;
-
+  color: white;
+  background-color: lightblue;
+  margin: 10px;
+  padding: 10px;
+  width: 150px;
+  /*font-weight:
+    letter-spacing;
+    word-spacing*/
 }
 nav {
-  color:grey;
-  background-color:lightblue;
-  margin:15px;
-  padding:10px;
+  color: grey;
+  background-color: lightblue;
+  margin: 10px;
+  padding: 5px;
 }
 ul {
-  list-style:none;
+  list-style: none;
 }
 li {
-  display:inline-block;
-  padding:5px;
-  background-color:white;
-  margin:15px;
+  display: inline-block;
+  padding: 5px;
+  background-color: white;
+  margin: 15px;
 }
-section.container  {
-  display:flex;
+section.container {
+  display: flex;
   flex-flow: row wrap;
 }
 section.container a {
   flex-basis: 300px;
-  margin:20px;
-  width:300px;
+  margin: 20px;
+  width: 300px;
+}
+.otherpara {
+  color: lightblue;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  background-color: white;
 }
 footer {
-  color:lightblue;
+  color: lightblue;
 }
-a:link, a:hover, a:visited {
-  color:lightblue;
+a:link {
+  color: lightblue;
+  text-decoration: none;
+  /*border-top border-bottom: border-box */
+}
+a:visited {
+  color: rgb(69, 127, 146);
+  text-decoration: none;
+}
+a:hover {
+  color: lightblue;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+body {
+  color:/*to change whole background color*/ ;
+  max-width: 1000px;
+  margin: 0 auto;
+}
